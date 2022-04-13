@@ -465,6 +465,9 @@
         </div>
       </div>
     </footer>
+
+    <!-- "БЕКДРОП" -->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
@@ -472,6 +475,47 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+
+        <!-- "ФОРМА в БЕКДРОПІ" -->
+        <p>Оставьте свои данные, мы вам перезвоним</p>
+        <form class="contact-form">
+          <label class="contact-form-field"
+            >Имя<input class="contact-form-input" type="text" name="user_name"
+          /></label>
+          <label class="contact-form-field"
+            >Телефон
+            <input class="contact-form-input" type="tel" name="user_phone"
+          /></label>
+          <label class="contact-form-field"
+            >Почта<input
+              class="contact-form-input"
+              type="email"
+              name="user_email"
+          /></label>
+          <label class="contact-form-field"
+            >Комментарий
+            <textarea
+              class="contact-form-message"
+              placeholder="Введите текст"
+              name="user_message"
+            ></textarea>
+          </label>
+          <div class="contact-form-checkbox-wrapper">
+            <input
+              class="contact-form-checkbox"
+              type="checkbox"
+              name="accept_policy"
+              required
+            />
+            <label class="contact-form-checkbox-label"
+              >Соглашаюсь с рассылкой и принимаю
+              <a href="">Условия договора</a></label
+            >
+          </div>
+          <button class="contact-form-submit-btn" type="submit">
+            Отправить
+          </button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
