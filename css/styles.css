@@ -641,7 +641,7 @@ body {
   min-width: 200px;
   background: var(--akcent-bg-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: 1px solid var(--akcent-bg-color);
+  border: none;
   border-radius: 4px;
 }
 .subscription-form-conteiner-btn {
