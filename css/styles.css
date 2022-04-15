@@ -643,6 +643,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 .subscription-form-conteiner-btn {
   position: relative;
