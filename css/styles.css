@@ -836,9 +836,6 @@ body {
 
 /* ФОРМА в БЕКДРОПІ */
 
-/* .contact-form {
-} */
-
 .contact-form-title {
   font-family: var(--primary-font-famili);
   font-weight: bold;
@@ -971,7 +968,6 @@ body {
   line-height: 1.88;
   display: block;
   margin: 0 auto;
-  /* align-items: center; */
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--wite-text-color);
