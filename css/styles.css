@@ -864,7 +864,7 @@ body {
 }
 
 .contact-form-input:focus {
-  outline: none;
+  /* outline: none; */
   border-color: var(--akcent-text-color);
 }
 
